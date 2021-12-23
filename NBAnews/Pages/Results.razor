@@ -1,0 +1,121 @@
+﻿@page "/results"
+@inject HttpClient Http
+@using RestSharp
+@using System.Diagnostics
+
+<PageTitle>Last results</PageTitle>
+
+<MudText Typo="Typo.h3" GutterBottom="true">Last results</MudText>
+
+@if (_resultItems == null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+    <MudTable Items="_games" Hover="true" SortLabel="Sort By" Elevation="0">
+        <HeaderContent>
+            <MudTh>Date</MudTh>
+            <MudTh>Home team</MudTh>
+            <MudTh>Home team score</MudTh>
+            <MudTh>Versus team</MudTh>
+            <MudTh>Versus team score</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Date">@context.StartTimeUtc.Date.ToShortDateString()</MudTd>
+            <MudTd DataLabel="Temp. (C)">@context.HTeam.FullName</MudTd>
+            <MudTd DataLabel="Temp. (F)">@context.HTeam.Score.Points</MudTd>
+            <MudTd DataLabel="Summary">@context.VTeam.FullName</MudTd>
+            <MudTd DataLabel="Summary">@context.VTeam.Score.Points</MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager PageSizeOptions="new int[]{50, 100}" />
+        </PagerContent>
+    </MudTable>
+}
+
+
+@code {
+    private IRestResponse<Result>? _resultItems;
+    private List<Game> _games;
+    private Result? results;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //var client = new RestClient("https://api-nba-v1.p.rapidapi.com/games/date/2021-12-23");
+        //var request = new RestRequest(Method.GET);
+        //request.AddHeader("x-rapidapi-host", "api-nba-v1.p.rapidapi.com");
+        //request.AddHeader("x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f");
+        //_resultItems = await client.ExecuteAsync<Result>(request);
+        //_games = _resultItems.Data.Api.Games;
+
+        Http.DefaultRequestHeaders.Add("x-rapidapi-host", "api-nba-v1.p.rapidapi.com");
+        Http.DefaultRequestHeaders.Add("x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f");
+
+        if (Http != null) results = await Http.GetFromJsonAsync<Result>("https://api-nba-v1.p.rapidapi.com/games/date/2021-12-23");
+
+        if (results?.Api.Games != null) _games = results.Api.Games;
+    }
+
+    // Result myDeserializedClass = JsonConvert.DeserializeObject<Result>(myJsonResponse); 
+    public class Score
+    {
+        public string Points { get; set; }
+    }
+
+    public class VTeam
+    {
+        public string TeamId { get; set; }
+        public string ShortName { get; set; }
+        public string FullName { get; set; }
+        public string NickName { get; set; }
+        public string Logo { get; set; }
+        public Score Score { get; set; }
+    }
+
+    public class HTeam
+    {
+        public string TeamId { get; set; }
+        public string ShortName { get; set; }
+        public string FullName { get; set; }
+        public string NickName { get; set; }
+        public string Logo { get; set; }
+        public Score Score { get; set; }
+    }
+
+    public class Game
+    {
+        public string SeasonYear { get; set; }
+        public string League { get; set; }
+        public string GameId { get; set; }
+        public DateTime StartTimeUtc { get; set; }
+        public DateTime EndTimeUtc { get; set; }
+        public string Arena { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
+        public string Clock { get; set; }
+        public string GameDuration { get; set; }
+        public string CurrentPeriod { get; set; }
+        public string Halftime { get; set; }
+        public string EndOfPeriod { get; set; }
+        public string SeasonStage { get; set; }
+        public string StatusShortGame { get; set; }
+        public string StatusGame { get; set; }
+        public VTeam VTeam { get; set; }
+        public HTeam HTeam { get; set; }
+    }
+
+    public class Api
+    {
+        public int Status { get; set; }
+        public string Message { get; set; }
+        public int Results { get; set; }
+        public List<string> Filters { get; set; }
+        public List<Game> Games { get; set; }
+    }
+
+    public class Result
+    {
+        public Api Api { get; set; }
+    }    
+}
