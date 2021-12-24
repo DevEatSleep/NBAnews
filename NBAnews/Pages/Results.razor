@@ -1,7 +1,7 @@
 ﻿@page "/results"
 @inject HttpClient Http
 @using RestSharp
-@using System.Diagnostics
+@using NBAnews.Model
 
 <PageTitle>Last results</PageTitle>
 
@@ -42,80 +42,41 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        //var client = new RestClient("https://api-nba-v1.p.rapidapi.com/games/date/2021-12-23");
-        //var request = new RestRequest(Method.GET);
-        //request.AddHeader("x-rapidapi-host", "api-nba-v1.p.rapidapi.com");
-        //request.AddHeader("x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f");
-        //_resultItems = await client.ExecuteAsync<Result>(request);
-        //_games = _resultItems.Data.Api.Games;
+        var client = new RestClient("https://api-nba-v1.p.rapidapi.com/games/date/2021-12-23");
+        client.Timeout = -1;
+        var request = new RestRequest(Method.GET);
+        request.AddHeader("x-rapidapi-host", "api-nba-v1.p.rapidapi.com");
+        request.AddHeader("x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f");
+        IRestResponse response = client.Execute(request);
+        Console.WriteLine(response.Content);
 
-        Http.DefaultRequestHeaders.Add("x-rapidapi-host", "api-nba-v1.p.rapidapi.com");
-        Http.DefaultRequestHeaders.Add("x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f");
-
-        if (Http != null) results = await Http.GetFromJsonAsync<Result>("https://api-nba-v1.p.rapidapi.com/games/date/2021-12-23");
-
-        if (results?.Api.Games != null) _games = results.Api.Games;
+    
     }
 
-    // Result myDeserializedClass = JsonConvert.DeserializeObject<Result>(myJsonResponse); 
-    public class Score
-    {
-        public string Points { get; set; }
-    }
+    // create request object
+    //    var request = new HttpRequestMessage(HttpMethod.Get, "https://api-nba-v1.p.rapidapi.com/games/date/2021-12-23");
 
-    public class VTeam
-    {
-        public string TeamId { get; set; }
-        public string ShortName { get; set; }
-        public string FullName { get; set; }
-        public string NickName { get; set; }
-        public string Logo { get; set; }
-        public Score Score { get; set; }
-    }
+    //// add authorization header
+    //    request.Headers.Authorization = new AuthenticationHeaderValue("x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f");
 
-    public class HTeam
-    {
-        public string TeamId { get; set; }
-        public string ShortName { get; set; }
-        public string FullName { get; set; }
-        public string NickName { get; set; }
-        public string Logo { get; set; }
-        public Score Score { get; set; }
-    }
+    //// add custom http header
+    //    request.Headers.Add("x-rapidapi-host", "api-nba-v1.p.rapidapi.com");
 
-    public class Game
-    {
-        public string SeasonYear { get; set; }
-        public string League { get; set; }
-        public string GameId { get; set; }
-        public DateTime StartTimeUtc { get; set; }
-        public DateTime EndTimeUtc { get; set; }
-        public string Arena { get; set; }
-        public string City { get; set; }
-        public string Country { get; set; }
-        public string Clock { get; set; }
-        public string GameDuration { get; set; }
-        public string CurrentPeriod { get; set; }
-        public string Halftime { get; set; }
-        public string EndOfPeriod { get; set; }
-        public string SeasonStage { get; set; }
-        public string StatusShortGame { get; set; }
-        public string StatusGame { get; set; }
-        public VTeam VTeam { get; set; }
-        public HTeam HTeam { get; set; }
-    }
+        
 
-    public class Api
-    {
-        public int Status { get; set; }
-        public string Message { get; set; }
-        public int Results { get; set; }
-        public List<string> Filters { get; set; }
-        public List<Game> Games { get; set; }
-    }
+    //// send request
+    //    using var httpResponse = await Http.SendAsync(request);
 
-    public class Result
-    {
-        public Api Api { get; set; }
-    }    
+    //// convert http response data to UsersResponse object
+    //    results = await httpResponse.Content.ReadFromJsonAsync<Result>();
+
+    //Http.DefaultRequestHeaders.Add("x-rapidapi-host", "api-nba-v1.p.rapidapi.com");
+    //Http.DefaultRequestHeaders.Add("x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f");
+
+    //if (Http != null) results = await Http.GetFromJsonAsync<Result>();
+
+    //if (results?.Api.Game != null) _games = results.Api.Games;
+
+   
+   
 }

@@ -7,6 +7,8 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "HttpClientExtensions.dll": "sha256-uK\/Tvvu4kPo7XZ3WwOOe\/7iSBvJ8UwjoY6E6+7NhRgg=",
+      "Newtonsoft.Json.dll": "sha256-GwtgxnWOE4\/1uM01w7EnBafjYtWDFGXuqfsGjujHlaM=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-ODuGqSb\/EjQtAKtKGIHBUB8NM5h18TZENSXeu+IQyNk=",
       "Microsoft.AspNetCore.Components.dll": "sha256-OHXy3+qxNjNPiVPhtM6knnUNVpcsVVAbYQzt9ymQykI=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-JL6o2IwhVoOKMOUJKALvvZX5HskL\/2V75XnhH0T\/RhQ=",
@@ -29,8 +31,10 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-kUEKJnvyAqVl9UT00Q68zceNJZz6P1qZO+EXf4i61c8=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-Eh7KdjwbmVGTRNSYsrftwhWuXuPvYdIGlsDUtyEZRNg=",
+      "System.Net.Http.Extensions.dll": "sha256-nIuH6alQ3rfyh1L4deqC8bVacJlqyMEgc\/zqM2ZLIEg=",
+      "System.Net.Http.Primitives.dll": "sha256-6bU19EYMdtZ99inOLLuExDWnEsqUi2HdqvMTCVBrhgQ=",
       "MudBlazor.dll": "sha256-fmv25H\/sCZePzpkLolpnIqgUT3cA9R85tzuL1RWc3Jw=",
-      "RestSharp.dll": "sha256-RNfvgIvfJ9pFMFmv5d0TLwYeMCuzSxv\/PHm3QknFJkA=",
+      "RestSharp.dll": "sha256-ooSwrkBC4vO7YwT7l0Yj9k5gAn44hbYp4f5QeJ0RYNs=",
       "System.IO.Pipelines.dll": "sha256-82Azhz6bwUir2bGFgxIgFUe0ecr6JTEuxlnxtWpds+I=",
       "Microsoft.CSharp.dll": "sha256-EGpAt7kwlRUTVib4sRhW2WM6jM0n4g3HdFLpAtTGRQk=",
       "Microsoft.VisualBasic.Core.dll": "sha256-tOAS9Bvqm5e3AgYUSVFFl77AHy8JJ+pnglTi7TvPdJA=",
@@ -198,13 +202,13 @@
       "mscorlib.dll": "sha256-tlYWYAypJO+6gsCjV734iAJn8xcZYhUjM7vgxDLJluE=",
       "netstandard.dll": "sha256-E48Na3ZQWKExltzTwgP0Ao+UqWhiVYeerXfUL9lEc+c=",
       "System.Private.CoreLib.dll": "sha256-J85Z1XnwapHef31sR58JFq+0HrFP5BjOoObPKjdFHCw=",
-      "NBAnews.dll": "sha256-tT\/NRtOStMM4psX3Nm850KU\/U3q+YEPSRafFhuF3RK4="
+      "NBAnews.dll": "sha256-9aEsLNp58ivCzefTMgIGPXLyC5i9pgSP7HUEdPOZnMA="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "NBAnews.pdb": "sha256-vxVAIqRukL1\/4A9TmLcWp37bF\/VLTO3FPRR0rLyet8o="
+      "NBAnews.pdb": "sha256-FHV7yNhg2bOHASw1wK+r0t\/tnI0+heOiniXkKvF1\/tU="
     },
     "runtime": {
       "dotnet.6.0.0.5mtjp2e4di.js": "sha256-LOq52qjRa3+zt3w4UL10rS3UdwHxVQxW0JAsMPO9QAM=",

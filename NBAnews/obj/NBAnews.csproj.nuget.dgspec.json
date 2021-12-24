@@ -46,6 +46,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "HttpClientExtensions": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -61,7 +65,7 @@
             },
             "RestSharp": {
               "target": "Package",
-              "version": "[106.15.0, )"
+              "version": "[106.2.2, )"
             }
           },
           "imports": [
