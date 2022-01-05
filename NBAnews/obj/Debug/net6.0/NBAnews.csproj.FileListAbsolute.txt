@@ -39,6 +39,7 @@ C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framewo
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\NBAnews.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\NBAnews.pdb
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\RestSharp.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll
@@ -346,6 +347,7 @@ C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framewo
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.dll.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\RestSharp.dll.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.dll.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
@@ -426,6 +428,7 @@ C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\Microsoft.Extens
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\Microsoft.JSInterop.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\RestSharp.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\Microsoft.CSharp.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\Microsoft.VisualBasic.Core.dll
@@ -628,6 +631,7 @@ C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\6q6MLiK
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\7E4m9lzS.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\mKBURmoC.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\z+9Te5j9.gz
+C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\QcXYJX5m.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\sqayyyAs.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\iovj0iJw.gz
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\HBJgTg52.gz
@@ -813,23 +817,4 @@ C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\NBAnews.csproj.C
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\NBAnews.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\ref\NBAnews.dll
 C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\NBAnews.pdb
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\RestSharp.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\RestSharp.dll.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\RestSharp.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\QcXYJX5m.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\HttpClientExtensions.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Extensions.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Primitives.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\HttpClientExtensions.dll.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Extensions.dll.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Primitives.dll.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\HttpClientExtensions.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\System.Net.Http.Extensions.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\bin\Debug\net6.0\System.Net.Http.Primitives.dll
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\AIIJb8YI.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\svUML3rv.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\SZjxHR9z.gz
-C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\build-gz\UNvb2vX3.gz
+C:\Users\tverdier\source\repos\NBAnews\NBAnews\obj\Debug\net6.0\NBAnews.csproj.AssemblyReference.cache

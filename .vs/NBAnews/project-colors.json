@@ -1,5 +1,11 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "37149cc7-d2e6-4040-85cb-f88eb93605bc": {
+      "ProjectGuid": "37149cc7-d2e6-4040-85cb-f88eb93605bc",
+      "DisplayName": "NBAnews",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
 }

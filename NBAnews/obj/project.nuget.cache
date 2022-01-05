@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "vZZfTqwB8q6YWAbjpiDZ1PubC/hiaPl0G5cKLx7HF9wWe+Kw6psLiih9nwq7bynWT819fLKUPGRg1coxuXm2LQ==",
+  "dgSpecHash": "IN1aQYPofuIEmKVZviy4vr0TbYCxKQPyrPFsMbYY5PF2Bcmy/WDuGG3lWp4oI0V2xipurFKr70fuXRi+C2i00A==",
   "success": true,
   "projectFilePath": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\NBAnews.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tverdier\\.nuget\\packages\\httpclientextensions\\1.0.3\\httpclientextensions.1.0.3.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.0\\microsoft.aspnetcore.components.analyzers.6.0.0.nupkg.sha512",
@@ -13,8 +12,6 @@
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.0\\microsoft.aspnetcore.components.webassembly.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\6.0.0\\microsoft.aspnetcore.components.webassembly.devserver.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.0\\microsoft.aspnetcore.metadata.6.0.0.nupkg.sha512",
-    "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
-    "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
@@ -31,9 +28,7 @@
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.jsinterop\\6.0.0\\microsoft.jsinterop.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.0\\microsoft.jsinterop.webassembly.6.0.0.nupkg.sha512",
-    "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\mudblazor\\6.0.2\\mudblazor.6.0.2.nupkg.sha512",
-    "C:\\Users\\tverdier\\.nuget\\packages\\newtonsoft.json\\7.0.1\\newtonsoft.json.7.0.1.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\restsharp\\106.2.2\\restsharp.106.2.2.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
@@ -42,46 +37,5 @@
     "C:\\Users\\tverdier\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.0\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'HttpClientExtensions 1.0.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net6.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "HttpClientExtensions",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Microsoft.Bcl 1.1.10' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net6.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Microsoft.Bcl",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Microsoft.Net.Http 2.2.29' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net6.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Microsoft.Net.Http",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Newtonsoft.Json 7.0.1' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net6.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

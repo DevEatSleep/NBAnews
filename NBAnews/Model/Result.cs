@@ -53,7 +53,7 @@
         public string Message { get; set; }
         public int Results { get; set; }
         public List<string> Filters { get; set; }
-        public List<Game> Games { get; set; }
+        public List<Game>? Games { get; set; }
     }
 
     public class Result

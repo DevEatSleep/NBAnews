@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C0u/2oBLXhEj2+ULBF6KTqiUifAHNFNuGM/pB0rYtus=",
+  "Hash": "FkzaBv+sgArc1npowqrZLVz/2fEWXJc+eS/OMwx2jMU=",
   "Source": "NBAnews",
   "BasePath": "/",
   "Mode": "Root",
@@ -134,23 +134,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.0\\runtimes\\browser-wasm\\native\\dotnet.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClientExtensions.dll",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/HttpClientExtensions.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\httpclientextensions\\1.0.3\\lib\\HttpClientExtensions.dll"
     },
     {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
@@ -763,23 +746,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.0\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
-    },
-    {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Newtonsoft.Json.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\httpclientextensions\\1.0.3\\lib\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\RestSharp.dll",
@@ -1819,23 +1785,6 @@
       "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.0\\runtimes\\browser-wasm\\lib\\net6.0\\System.Net.Http.dll"
     },
     {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.Extensions.dll",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Extensions.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.net.http\\2.2.29\\lib\\net45\\System.Net.Http.Extensions.dll"
-    },
-    {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.Json.dll",
       "SourceId": "NBAnews",
       "SourceType": "Computed",
@@ -1851,23 +1800,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.0\\runtimes\\browser-wasm\\lib\\net6.0\\System.Net.Http.Json.dll"
-    },
-    {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.Primitives.dll",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Primitives.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\.nuget\\packages\\microsoft.net.http\\2.2.29\\lib\\net45\\System.Net.Http.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.HttpListener.dll",
@@ -4148,23 +4080,6 @@
       "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.dll"
     },
     {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\AIIJb8YI.gz",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/HttpClientExtensions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClientExtensions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClientExtensions.dll"
-    },
-    {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\AQxrICUf.gz",
       "SourceId": "NBAnews",
       "SourceType": "Computed",
@@ -6409,23 +6324,6 @@
       "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.dll"
     },
     {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\svUML3rv.gz",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
-    },
-    {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\SWcyTaBN.gz",
       "SourceId": "NBAnews",
       "SourceType": "Computed",
@@ -6458,23 +6356,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.dll"
-    },
-    {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\SZjxHR9z.gz",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Extensions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.Extensions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.Extensions.dll"
     },
     {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\tDLUfuQE.gz",
@@ -6645,23 +6526,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
-    },
-    {
-      "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\UNvb2vX3.gz",
-      "SourceId": "NBAnews",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\tverdier\\source\\repos\\NBAnews\\NBAnews\\obj\\Debug\\net6.0\\build-gz\\uPVdCo+G.gz",
