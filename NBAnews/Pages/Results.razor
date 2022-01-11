@@ -1,62 +1,64 @@
 ﻿@page "/results"
-@using RestSharp
 @using NBAnews.Model
-@inject HttpClient Http
+@using MudBlazor.Extensions
+@inject HttpClient _http
 
 
-<PageTitle>Last results</PageTitle>
+<PageTitle>Results</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Last results</MudText>
+<MudText Typo="Typo.h3" GutterBottom="true">Results</MudText>
+<MudDatePicker PickerVariant="PickerVariant.Dialog" @bind-date="ResultsDate"></MudDatePicker>
+<MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="GetResults">Get results</MudButton>
 
-@if (_games == null)
-{
-    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
-}
-else
-{
-    <MudTable Items="_games" Hover="true" SortLabel="Sort By" Elevation="0">
-        <HeaderContent>
-            <MudTh>Date</MudTh>
-            <MudTh>Home team</MudTh>
-            <MudTh>Home team score</MudTh>
-            <MudTh>Versus team</MudTh>
-            <MudTh>Versus team score</MudTh>
-        </HeaderContent>
-        <RowTemplate>
-            <MudTd DataLabel="Date">@context.StartTimeUtc.Date.ToShortDateString()</MudTd>
-            <MudTd DataLabel="Temp. (C)">@context.HTeam.FullName</MudTd>
-            <MudTd DataLabel="Temp. (F)">@context.HTeam.Score.Points</MudTd>
-            <MudTd DataLabel="Summary">@context.VTeam.FullName</MudTd>
-            <MudTd DataLabel="Summary">@context.VTeam.Score.Points</MudTd>
-        </RowTemplate>
-        <PagerContent>
-            <MudTablePager PageSizeOptions="new int[]{50, 100}" />
-        </PagerContent>
-    </MudTable>
-}
-
+<MudTable Items="Games" Hover="true" SortLabel="Sort By" Elevation="0">   
+    <RowTemplate>       
+        <MudTd>@context.HTeam.FullName</MudTd>
+        <MudTd>@context.HTeam.Score.Points</MudTd>
+        <MudTd>@context.VTeam.FullName</MudTd>
+        <MudTd>@context.VTeam.Score.Points</MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="new int[]{5, 10}" />
+    </PagerContent>
+</MudTable>
 
 @code {
-    private List<Game>? _games;
+    public List<Game>? Games { get; set; }    
+    public DateTime? ResultsDate { get; set; }
+
     private Result? _results;
 
     protected override async Task OnInitializedAsync()
     {
+        ResultsDate = DateTime.Today;        
+    }
+
+    private async void GetResults()
+    {
+        if (!ResultsDate.HasValue)
+            return;
+
+        string FormattedDate = ResultsDate.Value.ToString("yyyy-MM-dd");
+
+        var requestText = "https://api-nba-v1.p.rapidapi.com/games/date/" + FormattedDate;
         var client = new HttpClient();
         var request = new HttpRequestMessage
-        {
-            Method = HttpMethod.Get,
-            RequestUri = new Uri("https://api-nba-v1.p.rapidapi.com/games/date/2021-12-23"),
-            Headers =
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri(requestText),
+                Headers =
             {
                 { "x-rapidapi-host", "api-nba-v1.p.rapidapi.com" },
                 { "x-rapidapi-key", "320aa979eamshbb837acae064e6bp1f6968jsn57008a862c0f" },
             },
-        };
+            };
         using var response = await client.SendAsync(request);
         response.EnsureSuccessStatusCode();
         _results = await response.Content.ReadFromJsonAsync<Result>();
-        if (_results?.Api.Games != null) 
-            _games = _results.Api.Games;
+        if (_results?.Api != null && _results?.Api.Games != null)
+        {
+            Games = _results.Api.Games;
+            StateHasChanged();
+        }        
     }
 }

@@ -10,7 +10,6 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0" PrivateAssets="all" />
 		<PackageReference Include="MudBlazor" Version="6.0.2" />
-		<PackageReference Include="RestSharp" Version="106.2.2" />
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties wwwroot_4manifest_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

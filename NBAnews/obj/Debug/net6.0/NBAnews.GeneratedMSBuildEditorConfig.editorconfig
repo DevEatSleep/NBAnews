@@ -11,41 +11,41 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = NBAnews
 build_property.RootNamespace = NBAnews
-build_property.ProjectDir = C:\Users\tverdier\source\repos\NBAnews\NBAnews\
+build_property.ProjectDir = C:\Users\admin_loc\Source\Repos\NBAnews\NBAnews\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\tverdier\source\repos\NBAnews\NBAnews
+build_property.MSBuildProjectDirectory = C:\Users\admin_loc\Source\Repos\NBAnews\NBAnews
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/App.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/Pages/Counter.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/Pages/FetchData.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/Pages/Index.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/Pages/Results.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/Pages/Results.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdWx0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/Shared/MainLayout.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/Shared/NavMenu.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tverdier/source/repos/NBAnews/NBAnews/_Imports.razor]
+[C:/Users/admin_loc/Source/Repos/NBAnews/NBAnews/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
