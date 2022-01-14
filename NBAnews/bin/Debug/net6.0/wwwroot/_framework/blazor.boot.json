@@ -197,13 +197,13 @@
       "mscorlib.dll": "sha256-+5VU+MYaTQMTlRe9QKobEjWZWv6I9teAGdNndWSBqWE=",
       "netstandard.dll": "sha256-E5RFhGIaDH5QM6BEbFUuHU8U9wP6N6jbo5MCttzLOCM=",
       "System.Private.CoreLib.dll": "sha256-9NtEbYixyog7vUmeYXyyqzfBXUYl8wxoVQ26Ji7sNRg=",
-      "NBAnews.dll": "sha256-QRikT1VSjuOBeE2oxitVnRbWku2d49Yu8XldrmlbBnM="
+      "NBAnews.dll": "sha256-NsnJ8VK0vQBvdNsYFXYErLyayo7E5yrWqW44WfUlRg0="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "NBAnews.pdb": "sha256-hkTd2x3WagqgrdBvjD2q7pjLbdDE4mfKJgWEIatx9aM="
+      "NBAnews.pdb": "sha256-HEWzzA6FiNmVi\/ZeUgUezrnjXGZhFQRf8JI17KGpEEk="
     },
     "runtime": {
       "dotnet.6.0.1.c23ygwq0yt.js": "sha256-awQsJ\/WxYhouHPuE+i3eJqjA4XClQlr2rD6nKvW80ww=",
